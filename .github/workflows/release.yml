@@ -22,4 +22,3 @@ jobs:
           goarch: ${{ matrix.goarch }}
           project_path: "./"
           binary_name: "shax"
-          extra_files: LICENSE Readme.md
