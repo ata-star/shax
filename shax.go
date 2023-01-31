@@ -2,10 +2,11 @@ package main
 
 import (
 	"bufio"
-	"crypto/sha256"
 	"fmt"
 	"os"
 	"sync"
+
+	"github.com/minio/sha256-simd"
 )
 
 func main() {
